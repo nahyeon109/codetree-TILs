@@ -1,6 +1,7 @@
 a, b = input().split()
 
-plus_result = float(a)+float(b)
-minus_result = float(a)-float(b)
+plus_result = int(a)+int(b)
+minus_result = int(a)- int(b)
+result = plus_result/minus_result
 
-print(round((plus_result/minus_result), 2))
+print(("{:.2f}".format(result)))
