@@ -8,3 +8,5 @@ elif a > b:
     while a >= b:
         print(a, end=' ')
         a -= 1
+else:
+    print(a)
