@@ -7,6 +7,6 @@ if c == 'A':
         print(i, end=' ')
         i += 1
 elif c == 'D':
-    for i in range(n, 0):
-        print(i, end=' ')
-        i -= 1
+    while n >= 1:
+        print(n, end=' ')
+        n -= 1
