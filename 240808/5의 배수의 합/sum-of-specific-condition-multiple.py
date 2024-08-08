@@ -3,11 +3,15 @@ sum = 0
 temp = 0
 
 if a > b:
-    temp = a
-    b = a
-    a = b
+    before = b
+    after = a
+elif b > a:
+    before = a
+    after = b
+else:
+    before, after = a
 
-for i in range(a, b+1):
+for i in range(before, after+1):
     if i%5 == 0:
         sum += i
 
