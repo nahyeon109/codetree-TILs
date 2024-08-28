@@ -1,11 +1,12 @@
 satsified = False
 
 n = int(input())
-for i in range(n+1, 2):
+for i in range(2, n):
     if n%i == 0:
         satsified = True
+        break
 
 if satsified == True:
-    print('N')
-else:
     print('C')
+else:
+    print('N')
